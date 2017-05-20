@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// Demo eslint-changes on pull request
+
 const Github = require('github');
 const eslint = require('eslint');
 const exec = require('child-process-promise').exec;
